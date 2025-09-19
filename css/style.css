@@ -77,12 +77,18 @@ a{
  }
 
 .principal li{
-  display: inline-block;
+  display: inline-block; 
   line-height: 2.5;
   margin: 0 89px;
 }
+
+.principal li a:hover{
+  color: #319ac4; 
+  /*ao passar o mause, muda a cor do texto */
+}
+
 button{
-  background-color: #41f341;  /* cor de fundo verde */
+  background-color: #d33ba0;  /* cor de fundo rosa */
   border: 1px solid transparent; /* borda sólida, mas invisível */
   padding: 2px 20px;              /* espaçamento interno: 2px vertical e 20px horizontal */
   border-radius: 3px;             /* borda levemente arredondada */
